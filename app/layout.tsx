@@ -8,6 +8,8 @@ export default function RootLayout({
   return (
     <html lang="en">
          <body className={`${inter.className} antialiased`}>{children}</body>
+         <title>NextJS Dashboard FullStack App</title>
+         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </html>
   );
 }
